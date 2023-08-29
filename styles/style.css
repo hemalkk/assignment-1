@@ -1,0 +1,218 @@
+/* Shared common styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Header styles */
+
+.header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .header-pic {
+    width: 635px;
+    height: 800px;
+
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+
+
+}
+
+.banner-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+}
+
+/* Main section styles */
+main {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.featured {
+    padding: 130px;
+    margin: 130px 0;
+}
+
+.featured-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-info {
+    text-align: center;
+    padding: 24px 24px;
+
+}
+
+.featured-info h6 {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.featured-info img {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+/* Hot deal section style */
+.hot-deal {
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-banner {
+    display: flex;
+}
+
+.hot-deal-banner-content {
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.off {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.hot-deal-banner-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.insta {
+    padding: 130px;
+    margin: 130px 0;
+}
+
+.insta .section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.insta desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.insta-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.insta-info {
+    text-align: center;
+    padding: 24px 24px;
+}
+
+
+.latest-deal {
+    text-align: center;
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    background: url(Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+
+}
+
+.latest-deal-info {
+    padding-top: 80px;
+}
+
+.contact {
+    display: block;
+}
+
+
+footer {
+    background: #111010;
+    padding: 40px 40px;
+}
+
+.flower {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.shop {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-desc-1 {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.footer-desc-2 {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
